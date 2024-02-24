@@ -1,3 +1,4 @@
+//This is the code to transfer Scene1 to Scene2,
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
