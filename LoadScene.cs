@@ -1,27 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//调用UnityEngine中的UI函数
+//Call the UI function in UnityEngine
 using UnityEngine.UI;
-//调用SceneManagement函数
+//Call SceneManagement function
 using UnityEngine.SceneManagement;
  
-public class LoadScene: MonoBehaviour
+public class LoadScene : MonoBehaviour
 {
-    //进行场景切换的函数
+    //Function for scene switching
     public void Scene1()
     {
-        SceneManager.LoadScene(0);//切换场景后销毁前场景
-        //SceneManager.LoadScene(0, LoadSceneMode.Additive);//切换场景后不销毁前场景
+        SceneManager.LoadScene(0); //Destroy the previous scene after switching scenes
+        //SceneManager.LoadScene(0, LoadSceneMode.Additive);//Do not destroy the previous scene after switching scenes
     }
     public void Scene2()
     {
-        SceneManager.LoadScene(1);//切换场景后销毁前场景
-        //SceneManager.LoadScene(1, LoadSceneMode.Additive);//切换场景后不销毁前场景
+        SceneManager.LoadScene(1);  //Destroy the previous scene after switching scenes
+        //SceneManager.LoadScene(1, LoadSceneMode.Additive);//Do not destroy the previous scene after switching scenes
     }
-    //退出的函数
+       //Exit function
     public void myExit()
     {
         Application.Quit();
     }
 }
+
