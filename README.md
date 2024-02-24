@@ -22,3 +22,7 @@ Or SceneManager.LoadScene("name of scene", LoadSceneMode.Additive);
 
 
   6. Select the Button, click the "+" of On Click() in the Inspector, and then drag the GameObject into it. And click No Function to select the method in the script. Since Scene 1 needs to switch to Scene 2, the Scene2() method is selected.
+
+
+
+Through the above steps, we can also transfer Scene2 to Scene1, and can also transfer directly to each other in multiple Scenes.
